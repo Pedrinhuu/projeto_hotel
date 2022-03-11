@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    width: 1600px;
+    margin: auto;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.titulo2{
+    padding-top: 1px;
+
+}
+
+.topo div > nav > a > span{
+    color: rgb(12, 172, 247);
+
+}
+
+.topo div > nav > a{
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 50px;
+    color: rgb(105, 103, 103);
+}
+
+
+
+
+.img_fundo{
+    background-image: url(assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+#img_texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto{
+    background-color: rgba(8, 110, 76, 0.589);
+    border: 1px solid white; 
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.parte2{
+    text-align: center;
+    padding: 100px;
+}
+
+.parte2 > h1{
+    font-size: 3em;
+}
+
+.parte2 >p{
+    font-size: 1.5em;
+}
+
+.parte3{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.parte3 > div{
+    margin: 20px;
+    text-align: center;    
+    border-bottom: 3px solid black;
+}
+
+.parte3 > div > img{
+    width: 400px;
+    padding-bottom: 20px;
+
+}
+
+.parte3 > div > a{
+    text-decoration: none;
+    padding-bottom: 20px;
+
+}
+
+
+#rota{
+    text-align: center;
+    padding: 60px;
+}
+
+#rota > h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+    
+}
+
+#rota > p{
+    font-size: 1.5em;
+
+}
+
+#sobre{
+    text-align: center;
+}
+
+#sobre > h1{
+    font-size: 3em;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+
+#sobre > p{
+    font-size: 1.5em;
+
+}
+
+.sobre_2{
+    display:flex;
+    padding-top: 70px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.sobre_2 > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sobre_2 > div > img{
+    width: 200px;
+    height: 200px;    
+    padding: 30px;
+
+}
+
+.sobre_texto> h3{
+    text-align: left;
+    font-size: 2em;    
+
+}
+
+
+.sobre_texto> p{
+    text-align: left;
+    font-size: 1.5em;    
+
+}
+
+
+
+
+
