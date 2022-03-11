@@ -50,6 +50,7 @@ body{
     background-image: url(assets/img-fundo.jpg);
     background-repeat: no-repeat;
     height: 750px;
+    
 }
 
 #img_texto{
@@ -86,6 +87,7 @@ body{
 .parte3{
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
     
     
 }
@@ -94,6 +96,7 @@ body{
     margin: 20px;
     text-align: center;    
     border-bottom: 3px solid black;
+    padding: 20px 0 ;
 }
 
 .parte3 > div > img{
