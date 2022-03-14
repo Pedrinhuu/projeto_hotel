@@ -6,7 +6,7 @@
     
 }
 
-body{
+main{
     width: 1600px;
     margin: auto;
 }
@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: sticky;
+    
     top: 0;
     background-color: white;
     padding: 20px;
@@ -107,6 +108,7 @@ body{
 
 .parte3 > div > a{
     text-decoration: none;
+    color: gray;
     padding-bottom: 20px;
 
 }
@@ -179,7 +181,56 @@ body{
 
 }
 
+footer{
+    background-color: rgb(52, 163, 126);
+    
+}
 
+.final{
+    display:flex;
+    padding: 10px; 
+    font-size: 1.2em;    
+    
+}
+
+.final > div{
+    display: flex;
+    padding: 30px;
+    border-bottom: 2px solid rgba(97, 93, 93, 0.459);
+    width: 50%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    }
+
+.final > div > img{
+    margin: 10px;
+
+}
+
+
+footer > div{
+    text-align: center;
+    color: white;  
+    font-size: 1.2em;
+    padding: 20px;  
+
+}    
+
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: underline; 
+
+
+}
 
 
 
