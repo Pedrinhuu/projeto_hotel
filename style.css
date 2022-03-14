@@ -85,31 +85,37 @@ main{
     font-size: 1.5em;
 }
 
-.parte3{
+#parte3{
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.1em;
     
     
 }
 
-.parte3 > div{
+#parte3 > div{
     margin: 20px;
     text-align: center;    
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgba(128, 124, 124, 0.514);
     padding: 20px 0 ;
 }
 
-.parte3 > div > img{
+#parte3 > div > img{
     width: 400px;
     padding-bottom: 20px;
 
 }
 
-.parte3 > div > a{
+#parte3 > div > a{
     text-decoration: none;
     color: gray;
     padding-bottom: 20px;
+
+}
+
+#parte3 > div > a:hover{
+    text-decoration: underline;
+    color: rgb(44, 170, 128);
 
 }
 
@@ -162,22 +168,23 @@ main{
 }
 
 .sobre_2 > div > img{
-    width: 200px;
-    height: 200px;    
+    width: 100px;
+    height: 100px;    
     padding: 30px;
 
 }
 
 .sobre_texto> h3{
     text-align: left;
-    font-size: 2em;    
+    font-size: 1.5em;    
 
 }
 
 
 .sobre_texto> p{
     text-align: left;
-    font-size: 1.5em;    
+    font-size: 1.4em;
+    color: rgb(129, 126, 126);    
 
 }
 
@@ -231,6 +238,7 @@ footer a:hover{
 
 
 }
+
 
 
 
